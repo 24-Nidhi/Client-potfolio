@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raj Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/457345bdae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!---------------------------------HEADER SECTION------------------------------------------>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <h1>Hi, I am <span>Raj Mirani </span> <br> </h1>
+                <p>Your friendly neighbourhood graphic designer</p>
+            </div>
+        </div>
+        <!---------------------------------ABOUT SECTION------------------------------------------>
+        <div id="about">
+            <div class="container-content">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="/images/raj3.png">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtitle">About Me</h1>
+                        <p>
+                            Meet Raj Mirani, a visionary graphic designer with a passion for turning imagination into
+                            reality. With a keen eye for detail and a creative flair that knows no bounds, Raj breathes
+                            life into every project he touches. Whether it's crafting captivating logos, designing
+                            stunning visuals, or bringing brands to life, Raj's dedication and expertise shine through,
+                            leaving a lasting impression on all who encounter his work. Join him on a journey where
+                            creativity knows no limits, and every design tells a story worth remembering.
+                        </p>
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills', event)">Skills</p>
+                            <p class="tab-links" onclick="opentab('expirence', event)">Expirence</p>
+                            <p class="tab-links" onclick="opentab('education', event)">Education</p>
+                        </div>
+                        <!--------------ABOUT skills SECTION-------------->
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>Graphic Designing</span><br>Static and Dynamic designs</li>
+                                <li><span>Static designing</span><br>Creating Static designs </li>
+                                <li><span>Dynamic designing</span><br>Create Dynamic designs</li>
+                            </ul>
+                        </div>
+
+                        <!--------------ABOUT exp SECTION-------------->
+                        <div class="tab-contents" id="expirence">
+                            <ul>
+                                <li><span>2021-Current SpamIt</span><br>Graphic Desginer at SpamIt</li>
+                                <li><span>2015-2020</span><br>Training at Jalaram Printers </li>
+                                <li><span>Dynamic designing</span><br>Create Dynamic designs</li>
+                            </ul>
+                        </div>
+
+                        <!--------------ABOUT education SECTION-------------->
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2024</span><br>BE in Electrical Engineering from Mumbai University</li>
+                                <li><span>2024</span><br>Honors in data science from Mumbai University</li>
+                                <li><span>2018</span><br>Desging Training at Jalaram Printers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------------services SECTION------------------------------------------>
+        <div id="services">
+            <div class="container-content">
+                <h1 class="subtitle">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-photo-film"></i>
+                        <h2>Dynamic designing</h2>
+                        <p>bfdshbfcnsdxcbnjkds fbhjsabdcxjsxbzcjsx cdjbd bx
+                            jfdjbfjdbhfb</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-eye"></i>
+                        <h2>Static designing</h2>
+                        <p>bfdshbfcnsdxcbnjkdsfb hjsabdcxjsxbzcjsx cdjbd bx
+                            jfdjbfjdbhfb</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>Video editing</h2>
+                        <p>bfdshbfcnsdxcbn jkdsfbhjsabd bdhsfbjhd cdfbcnncfd bx
+                            jfdjbfjdbhfb</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!---------------------------------WORK SECTION------------------------------------------>
+
+        <div id="portfolio">
+            <div class="container-content">
+                <h1 class="subtitle">MY WORK</h1>
+
+                <!-- Parent container for navigation arrows and work items -->
+                <div class="worklist-container">
+
+                    <div class="worklist">
+
+                        <div class="work">
+                            <img src="/images/work3.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/1s0wW_lDn7i0CESkdR04nko0xavh2QHnP/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work1.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/123cDC78yuG_mSTLDfLscWK9Kt7y37ZsG/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work2.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/1dtcmye7nX7wU0ybz3VYUinWRHAojcEzV/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work1.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/123cDC78yuG_mSTLDfLscWK9Kt7y37ZsG/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work2.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/1dtcmye7nX7wU0ybz3VYUinWRHAojcEzV/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work1.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/123cDC78yuG_mSTLDfLscWK9Kt7y37ZsG/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+                        <div class="work">
+                            <img src="/images/work2.png">
+                            <div class="layer">
+                                <h3>Posters</h3>
+                                <p>Posters to market your event</p>
+                                <a
+                                    href="https://drive.google.com/file/d/1dtcmye7nX7wU0ybz3VYUinWRHAojcEzV/view?usp=drive_link"><i
+                                        class="fa-solid fa-link"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="navigation-arrows">
+                        <button class="arrow arrow-prev" onclick="scrollWork(-1)"><i
+                                class="fas fa-chevron-left"></i></button>
+                        <button class="arrow arrow-next" onclick="scrollWork(1)"><i
+                                class="fas fa-chevron-right"></i></button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--------------------------------------------------------CONTACT ME SECTION--------------------------------------------------------->
+        <div id="contact">
+            <div class="container-content">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtitle">Conatct Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>rajmirani02@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>8828166222</p>
+                        <div class="social-icons">
+                            <a href="https://instagram.com/raj.mirani_24"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://instagram.com/raj.mirani_24"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://instagram.com/raj.mirani_24"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                        <a href="/images/Raj_resume.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p> copyright @ Nidhi. Made with <i class="fa-solid fa-heart"></i> by Nidhi Sawant</p>
+            </div>
+
+        </div>
+        <!-- Link to the new JavaScript file for about me-->
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname, event) {
+                for (var i = 0; i < tablinks.length; i++) {
+                    tablinks[i].classList.remove("active-link");
+                }
+
+                for (var i = 0; i < tabcontents.length; i++) {
+                    tabcontents[i].classList.remove("active-tab");
+                }
+
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+        <!-- Link to the new JavaScript file for menu and cross icon-->
+        <script>
+            var sidemenu = document.getElementById("sidemenu");
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+        </script>
+
+        <!--  new JavaScript file for google sheet connection -->
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbxl-JTOb5ETh4tjzb5w0B9PKWohT20D_dqK__ceuEQ_PC3EKbFN4UbkKz0h3hg2Z-M5/exec';
+            const form = document.forms['submit-to-google-sheet'];
+
+            form.addEventListener('submit', e => {
+                e.preventDefault();
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        console.log('Success!', response);
+                        document.getElementById("msg").innerText = "Form submitted successfully!";
+                        // Reset the form after 5 seconds
+                        setTimeout(() => {
+                            form.reset();
+                            document.getElementById("msg").innerText = "";
+                        }, 2000);
+                    })
+                    .catch(error => console.error('Error!', error.message));
+            });
+
+        </script>
+
+        <!-- Link to the new JavaScript file for work section -->
+        <script src="work.js"></script>
+
+</body>
+
+</html>
